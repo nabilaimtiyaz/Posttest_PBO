@@ -33,12 +33,12 @@ Pada method tambahItem, program menyiapkan proses untuk menambahkan data hasil p
 
 Pada method tampilkanItem, program berjalan untuk menampilkan seluruh data hasil panen yang sudah tersimpan dalam daftar. pertama-tama, dilakukan pengecekkan apakah daftarPanen masih kosong menggunakan method isEmpty(). JIka memang belum ada data yang dimasukkan, maka program akan langsung menampilkan pesan "Belum ada data panen". Namun, jika data sudah ada, program akan menngeluarkan output daftar hasil panen.
 
-<img width="1125" height="675" alt="image" src="https://github.com/user-attachments/assets/2a833fc8-e868-4363-b5c3-0f1b31adf25d" />
+<img width="1123" height="669" alt="image" src="https://github.com/user-attachments/assets/96977ba3-6214-4e44-a9dd-f6cb981a679d" />
 
 
 Method editItem ini digunakan untuk mengubah data panen yang sudah ada. Pertama, program akan menampilkan daftar panen. Jika daftar kosong, proses langsung dihentikan. Jika ada data nya, pengguna diminta memilih nomor item yang ingin diedit. Setelah nomor valid, program akan meminta pengguna menginputkan data yang baru.
 
-<img width="908" height="430" alt="image" src="https://github.com/user-attachments/assets/76fa2a14-8890-45c5-89a8-c159ca4cbc3a" />
+<img width="910" height="431" alt="image" src="https://github.com/user-attachments/assets/75069249-32ca-43da-be1d-67a94024b8eb" />
 
 
 Method hapusItem berfungsi untuk menghapus data panen. Pertama, program menampilkan daftar panen, lalu mengecek apakah ada data. Jika ada, pengguna diminta memilih nomor item yang ingin dihapus. Nomor tersebut dikurangi 1 agar sesuai dengan indeks ArrayList.
