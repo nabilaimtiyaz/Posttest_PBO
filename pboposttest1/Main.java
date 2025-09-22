@@ -84,7 +84,7 @@ public class Main {
     // update
     static void editItem() {
         tampilkanItem();
-        if (!daftarPanen.isEmpty()) return;
+        if (daftarPanen.isEmpty()) return;
         
             System.out.print("Pilih nomor item yang mau diedit: ");
             int index = scanner.nextInt() - 1;
@@ -111,7 +111,7 @@ public class Main {
     // delete
     static void hapusItem() {
         tampilkanItem();
-        if (!daftarPanen.isEmpty()) return;
+        if (daftarPanen.isEmpty()) return;
         
             System.out.print("Pilih nomor item yang mau dihapus: ");
             int index = scanner.nextInt() - 1;
