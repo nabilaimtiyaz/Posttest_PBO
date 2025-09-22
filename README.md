@@ -4,4 +4,4 @@
 
 **NIM**: 2409116011
 
-Sistem Informasi A'2024
+**Kelas**: A'2024
